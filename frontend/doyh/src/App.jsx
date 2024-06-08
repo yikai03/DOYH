@@ -1,13 +1,12 @@
 import React from 'react'
-import Fihe from './components/fihe.jsx'
+import MData from './components/mData.jsx'
 
 const App = () => {
   return (
     <>
-    <div className='text-3xl bg-red-300'>ewf</div>
-    <Fihe />
-    <Fihe />
+    <MData/>
     </>
+    
   )
 }
 

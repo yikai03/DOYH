@@ -4,8 +4,12 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['Inter'],
+      },
+    },
   },
-  plugins: [],
+  plugins: [require('daisyui'),],
 }
 
