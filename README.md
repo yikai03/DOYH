@@ -8,6 +8,7 @@
 4. cd backend
 5. pip/pip3 install -r requirements.txt
 6. run "uvicorn server:app" in terminal
+7. You might need to change the API Key for "tagGenerationAI.py" and "summarizationAI.py" to your own Gemini API Key (You can get your API key here: https://aistudio.google.com/app/apikey)
 
 ## Frontend
 1. create new terminal (Ctrl+Shift+`)
