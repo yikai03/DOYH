@@ -1,14 +1,18 @@
 import React from 'react'
-import Fihe from './components/fihe.jsx'
+import Navbar from './components/NavBar.jsx'
+import MDisplay from './components/mDisplay.jsx'
+import MData from './components/mData.jsx'
+import Form from './backup/form.jsx'
+
 
 const App = () => {
   return (
     <>
-    <div className='text-3xl bg-red-300'>ewf</div>
-    <Fihe />
-    <Fihe />
+    <Navbar/>
+    <MDisplay/>
     </>
   )
 }
 
 export default App
+

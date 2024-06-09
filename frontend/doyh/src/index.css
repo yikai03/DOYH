@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.gradient-button {
+    background: linear-gradient(90deg, #4bc8f5, #2993d0, #0055a5);
+    border-radius: 1.25rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px; 
+  }
